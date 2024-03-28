@@ -1,3 +1,8 @@
+Thanks a lot to visit our repository.
+You will find in it the results of our 10 days first sizeable project.
+Enjoy the visit.
+The Python Brawl Star Team
+
 1# Project Title: vanguard-ab-test
 EDA and Data Cleaning Performance Metrics Hypothesis testing Experiment Evaluation Tableau Setup
 The goal is to see if the new design leads to a better user experience and higher process completion rates.
