@@ -19,8 +19,11 @@ Both groups navigated through an identical process sequence: an initial page, th
 The goal is to see if the new design leads to a better user experience and higher process completion rates.
 
 3# Installation: Instructions on how to install and set up the project locally. This may include dependencies that need to be installed.
+We have attached a function_file.py to simplify the code. Note that on deepnote it was requiring extra import. As a secondary option the functions are within the code and can be run in the notebook appendices.
+There are additional Tableau files to be used for further or more in detail analysis of the data.
 
 4# Usage: Guidelines on how to use the project, including any configuration or setup required.
+Not specific guideline.
 
 5# Examples: Code examples or usage scenarios to illustrate how the project can be used.
 
