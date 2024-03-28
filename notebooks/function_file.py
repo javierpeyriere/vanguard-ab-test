@@ -27,6 +27,7 @@ def first_analysis(dataf):
 def num_stats(df, column):
     """Function to generate the statistical data for numerical columns à la describe with mode in addition"""
     import seaborn as sns
+    import matplotlib.pyplot as plt
     
     print(f'****** Brief Analysis of {column} *****')
           
@@ -52,14 +53,11 @@ def num_stats(df, column):
     plt.show()  # to show the plot as it goes!
           
 
-
-# In[7]:
-
-
 def cat_stats(df, column):
     """Function to generate the statistical data for categorical columns"""
     import seaborn as sns
-    
+    import matplotlib.pyplot as plt
+     
     print(f'****** Brief analysis of {column} *****')
     frequency_table = df[column].value_counts()
     # Calculating the proportion of each unique value 
@@ -74,7 +72,30 @@ def cat_stats(df, column):
     plt.show() 
 
 
-# In[ ]:
+def time_step(df, step):
+    """ Creates a DataFrame with the average times of each step from the DataFrame df2c copy of df2"""
+    name = 'avg_time_'+ step
+    data = df[df['process_step'] == step].sort_values('date2')
+    temp = pd.DataFrame(data.groupby(['client_id','process_step'])['time_spent'].mean()).reset_index(drop = False).rename(columns={'time_spent': name})
+     
+    return temp[['client_id', name]]
+
+
+def am_pm(time):
+    """ Creates categories AM, PM and night for the time of the step"""
+    if 6 <= time < 12:
+        return 'AM'
+    elif 12 <= time < 23:
+        return 'PM'
+    else:
+        return 'Night'
+
+
+def clean(x):
+    """Function to round the floats to only 1 digit"""
+    if isinstance(x,float):
+        x = round(x,1)
+    return x
 
 
 
