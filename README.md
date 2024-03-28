@@ -27,14 +27,17 @@ Not specific guideline. The main points of the project are summarized in the pre
 To get more in the details you can go through the Jupiter Notebook in order to see the preparation of the data and first analysis, to have an idea of how the work was done, in particular regarding the hypothesis testing.
 There are additional Tableau files to be used for further or more in detail analysis of the data.
 
-5# Examples: Code examples or usage scenarios to illustrate how the project can be used.
+5# Examples: 
+Feel free to share and add your Code examples or usage scenarios to illustrate how the project can be used.
 
-6# Contributing: Guidelines for contributing to the project, including how to report bugs, suggest improvements, or submit code changes (e.g., through pull requests).
+6# Contributing: 
+If you would like to contribute to the project,  report bugs, suggesting improvements, or submiting code changes (e.g., through pull requests), feel free to upload a suggestion, drop a line to one member of the Python Brawler Stars Team.
 
 7# License: Information about the project's license, such as the type of license it is released under (e.g., MIT, Apache, GPL) and any terms and conditions for using the project.
 
-8# Credits: Acknowledgment of any individuals or organizations that contributed to the project, as well as links to relevant resources or documentation.
+8# Credits: 
+Thanks to Andy and Elnara for their advice and insights, always there to give us a hand. Thanks to IronHack. Thanks to my mom. Thanks to Adam for thanking his mom too.
 
-9# Contact: Contact information for the project maintainers or contributors, such as email addresses or links to social media profiles.
+9# Contact: Contact information for the project maintainers or contributors,you can contact us on our email still to be updated: pythonbrawlerstars@stars.com
 
-10# Additional Information: Any other relevant information that might be useful to users or contributors, such as known issues, troubleshooting tips, or future plans for the project.
+10# Additional Information: N/A
