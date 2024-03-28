@@ -20,10 +20,12 @@ The goal is to see if the new design leads to a better user experience and highe
 
 3# Installation: Instructions on how to install and set up the project locally. This may include dependencies that need to be installed.
 We have attached a function_file.py to simplify the code. Note that on deepnote it was requiring extra import. As a secondary option the functions are within the code and can be run in the notebook appendices.
-There are additional Tableau files to be used for further or more in detail analysis of the data.
 
-4# Usage: Guidelines on how to use the project, including any configuration or setup required.
-Not specific guideline.
+4# Usage: Guidelines on how to use the project. 
+Configuration or setup required: make sure you have imported the latest versions of the python librairies used in the notebook and function_file: Pandas, Seaborn, matplotlib.pyplot, 
+Not specific guideline. The main points of the project are summarized in the presentation. 
+To get more in the details you can go through the Jupiter Notebook in order to see the preparation of the data and first analysis, to have an idea of how the work was done, in particular regarding the hypothesis testing.
+There are additional Tableau files to be used for further or more in detail analysis of the data.
 
 5# Examples: Code examples or usage scenarios to illustrate how the project can be used.
 
